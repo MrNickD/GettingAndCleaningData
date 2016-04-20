@@ -14,6 +14,13 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Below is some more information on how the raw data was generated:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+## Units
+The 'activity' variable are any one of 6 activities. (walking, walking upstairs, walking downstairs, sitting, standing, laying)
+The 'subject' variable are observed anywhere from 1 to 30 for each of the 30 subjects.
+Data for all other measurements for this data set were taken by both the phones Accelerometer and Gyroscope.
+The acceleration signal from the smartphone accelerometer are in standard gravity units 'g'.
+The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
+
 ## How the script works
 The script first loads the `dplyr` and `tidyr` libraries.
 
