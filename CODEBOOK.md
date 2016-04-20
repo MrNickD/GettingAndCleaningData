@@ -11,6 +11,11 @@ The first two colums list each of the 30 `subjects` paired with as many as 6 `ac
 The `subjects` are numbered 1 to 30.
 The `activities` are `walking`, `walking_upstairs`, `walking_downstairs`, `sitting`, `standing`, and `laying`.
 
+## Units
+Data for all other measurements for this data set were taken by both the phones Accelerometer and Gyroscope.
+The acceleration signal from the smartphone accelerometer are in standard gravity units 'g'.
+The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
+
 ## Time Domain Accelerator Measurements
 Time domain measurements(mean and standard deviation), along each axis(X,Y,Z):
 Types: Body, Gravity, Body Jerk, Body Magnitude, Gravity Magnitude, Jerk Magnitude.
